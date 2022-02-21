@@ -1,3 +1,7 @@
+.header{
+    background-color: whitesmoke;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -10,8 +14,21 @@ ul{
 }
 
 #hire{
-    padding: 10px;
-    margin-left: 50px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: -350px;
     background-color: #F6B400;
 }
-
+.left{
+    display: flex;
+}
+.image{
+    
+    /* border: 1px solid black; */
+    margin-left: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 200px;
+    padding-left: 50px;
+    background: linear-gradient(100deg,whitesmoke 50%,#F6B400 50% );
+}
