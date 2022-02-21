@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    
+}
+ul{
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+#hire{
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #F6B400;
+}
+
