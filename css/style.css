@@ -35,9 +35,14 @@ ul{
     padding-bottom: 150px;
     padding-right: 200px;
     padding-left: 50px;
-    background: linear-gradient(100deg,whitesmoke 50%,#F6B400 50% );
+    background: linear-gradient(100deg,#000000 50%,#F6B400 50% );
 }
-.about::after{
-    background-color: #F6B400;
-    transform: translate(-4%, 40%);
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #F6B400;
+    font-weight: bold;
+    text-decoration: underline;
 }
+
