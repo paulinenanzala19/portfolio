@@ -45,4 +45,8 @@ ul{
     font-weight: bold;
     text-decoration: underline;
 }
+.box{
+    display: flex;
+    justify-content: space-around;
+}
 
