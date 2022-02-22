@@ -48,5 +48,7 @@ ul{
 .box{
     display: flex;
     justify-content: space-around;
+    background-image: url(assets/wave.png);
 }
+
 
