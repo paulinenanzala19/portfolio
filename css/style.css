@@ -1,5 +1,8 @@
 .header{
-    background-color: whitesmoke;
+    background-color: #000000;
+}
+h1{
+    color: aliceblue;
 }
 
 .navbar{
@@ -10,6 +13,8 @@
 }
 ul{
     list-style-type: none;
+    color: #F6B400;
+    display: flex;
     justify-content: space-around;
 }
 
@@ -31,4 +36,8 @@ ul{
     padding-right: 200px;
     padding-left: 50px;
     background: linear-gradient(100deg,whitesmoke 50%,#F6B400 50% );
+}
+.about::after{
+    background-color: #F6B400;
+    transform: translate(-4%, 40%);
 }
