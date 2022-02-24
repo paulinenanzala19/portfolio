@@ -8,14 +8,22 @@ h1{
 .navbar{
     display: flex;
     flex-direction: row;
+    
     /* justify-content: space-around; */
     
 }
-ul{
-    list-style-type: none;
+.navbar ul li{
+    padding: 10px;
     color: #F6B400;
-    display: flex;
-    justify-content: space-around;
+    list-style-type: none;
+    display: inline;
+    
+    
+}
+.navbar ul{
+    margin-left: 30%;
+    margin-top: 20px;
+   
 }
 
 #hire{
@@ -48,7 +56,25 @@ ul{
 .box{
     display: flex;
     justify-content: space-around;
-    background-image: url(assets/wave.png);
+    background: radial-gradient(circle at centre, #F6B400 90%, #000000 10%)
 }
-
+.education{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.experience{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+.program{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
 
