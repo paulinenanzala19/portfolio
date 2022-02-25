@@ -25,6 +25,9 @@ h1{
     /* justify-content: space-around; */
     
 }
+.navbar h1{
+    margin-left: 40px;
+}
 .navbar ul li{
     padding: 10px;
     color: #F6B400;
@@ -40,6 +43,9 @@ h1{
     margin-left: 20%;
     margin-top: 20px;
    
+}
+.left h1{
+    margin-left: 40px;
 }
 
 #hire{
@@ -62,23 +68,29 @@ h1{
     width: 40vw;
     /* height: 60vh; */
     margin-left: 300px;
+    /* margin-right: 300px; */
     padding-top: 150px;
     padding-bottom: 150px;
-    padding-right: 200px;
+    padding-right: 100px;
     padding-left: 50px;
     background: linear-gradient(100deg,#000000 50%,#F6B400 50% );
 }
 .about{
     display: flex;
+    margin-top: 60px;
 }
 .title{
-    margin-top: 100px;
+    /* margin-top: 50px; */
     font-size: 30px;
     font-style: italic;
     color: #F6B400;
     font-weight: bold;
     text-decoration: underline;
     
+}
+.title img{
+    width: 300px;
+    height: 300px;
 }
 .card{
     width: 30%;
