@@ -98,28 +98,28 @@ h1{
     background-color: transparent;
     color: #F6B400;
 }
-.box{
+.projects{
     display: flex;
-    justify-content: space-around;
-    background: radial-gradient(circle at centre, #F6B400 90%, #000000 10%)
-}
-.education{
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-left: 20px;
-    text-align: center;
-}
-.experience{
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-left: 20px;
-    text-align: center;
-}
-.program{
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-}
 
+}
+.head h1{
+    margin-left: 500px;
+}
+.projects img{
+    width: 200px;
+    height: 250px;
+
+}
+.project{
+    border: 1px solid black ;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: center;
+    padding: 30px;
+
+}
+.container{
+    width: 300px;
+  background-color: #ddd;
+}
