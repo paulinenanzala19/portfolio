@@ -45,7 +45,8 @@ h1{
 #hire{
     padding: 20px;
     margin-top: 300px;
-    margin-left: -20px;
+    border: 1px solid white;
+    margin-left: -500px;
     background-color: #F6B400;
 }
 
