@@ -103,18 +103,23 @@ h1{
 
 }
 .head h1{
-    margin-left: 500px;
+    margin-left: 550px;
+    color: #000000;
+    margin-top: 50px;
 }
 .projects img{
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
 
 }
+
 .project{
-    border: 1px solid black ;
+    /* border: 1px solid black ; */
     border-radius: 30px;
+    background-color:#F6B400;
     margin-top: 100px;
     margin-left: 80px;
+    margin-right: 80px;
     text-align: center;
     padding: 30px;
 
@@ -122,4 +127,25 @@ h1{
 .container{
     width: 300px;
   background-color: #ddd;
+}
+.skill{
+    text-align: center;
+    margin-top: 30px;
+    text-decoration:underline;
+}
+.HTML{
+    width: 80%;
+    background-color: #F6B400;
+}
+.CSS{
+    width: 70%;
+    background-color: #F6B400;
+}
+.JAVASCRIPT{
+    width: 20%;
+    background-color: #F6B400;
+}
+.main{
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
