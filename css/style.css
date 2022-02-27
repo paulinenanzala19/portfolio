@@ -28,6 +28,8 @@ h1{
 }
 .navbar h1{
     margin-left: 40px;
+    font-size: 100px;
+    margin-bottom: 40px;
 }
 .navbar ul li{
     padding: 10px;
@@ -86,9 +88,19 @@ h1{
     font-style: italic;
     color: #F6B400;
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     margin-left: 50px;
     
+}
+.yvonne{
+    /* border: 1px solid white; */
+    width: 40%;
+    margin-right: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+    float: right;
 }
 
 .title img{
@@ -103,12 +115,18 @@ h1{
     margin-left: -10px;
     background-color: #F6B400;
 }
-.card{
-    width: 30%;
-    margin-left: 150px;
-    background-color: transparent;
+.card2{
+    width: 70%;
+   
+    margin-left: 100px;
+    margin-top: 50px;
+    
     color: #F6B400;
-     /* display: flex; */
+    display: flex; 
+}
+.card{
+    margin-left: 100px;
+    background-color: #000000;
 }
 .projects{
     display: flex;
@@ -167,4 +185,10 @@ h1{
 }
 .main p{
     color: #F6B400;
+}
+.repo{
+    border: 1px solid #000000;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 20px;
 }
