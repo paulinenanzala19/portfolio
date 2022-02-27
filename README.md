@@ -6,6 +6,8 @@
 * clone the repository
 https://github.com/paulinenanzala19/portfolio.git
 * create a file index.html and style.css
+* live link
+ https://paulinenanzala19.github.io/portfolio/
 ## Known Bugs
 * Not any that am aware as at the moment
 
