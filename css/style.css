@@ -116,7 +116,7 @@ h1{
     background-color: #F6B400;
 }
 .card2{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 70%;
     margin-top: 500px;
    
@@ -173,11 +173,11 @@ h1{
     color: #F6B400;
 }
 .HTML{
-    width: 80%;
+    width: 95%;
     background-color: #F6B400;
 }
 .CSS{
-    width: 70%;
+    width: 90%;
     background-color: #F6B400;
 }
 .JAVASCRIPT{
@@ -215,4 +215,36 @@ h1{
     margin-right: 100px;
     width: 40%;
     
+    
+}
+.footer{
+   
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.end img{
+    width: 5vw;
+    height: 8vh;
+    padding: 20px;
+}
+.services{
+    display: flex;
+    color: #F6B400;
+}
+.service{
+    border: 1px solid #F6B400;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.gee{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F6B400;
+    font-size: 40px;
+    font-weight: bolder;
+
 }
