@@ -1,4 +1,5 @@
 body{
+    background-color: #000000;
     /* background-image: url("https://images.unsplash.com/photo-1468657988500-aca2be09f4c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
     
 }
@@ -51,7 +52,7 @@ h1{
 #hire{
     padding: 20px;
     margin-top: 300px;
-    border: 1px solid white;
+    border: 1px solid #F6B400;
     margin-left: -500px;
     background-color: #F6B400;
 }
@@ -77,7 +78,7 @@ h1{
 }
 .about{
     display: flex;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .title{
     /* margin-top: 50px; */
@@ -86,25 +87,37 @@ h1{
     color: #F6B400;
     font-weight: bold;
     text-decoration: underline;
+    margin-left: 50px;
     
 }
+
 .title img{
     width: 300px;
     height: 300px;
+}
+#cv{
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid #F6B400;
+    margin-left: -10px;
+    background-color: #F6B400;
 }
 .card{
     width: 30%;
     margin-left: 150px;
     background-color: transparent;
     color: #F6B400;
+     /* display: flex; */
 }
 .projects{
     display: flex;
 
 }
 .head h1{
-    margin-left: 550px;
-    color: #000000;
+    /* margin-left: 550px; */
+    text-align: center;
+    color:#F6B400;
     margin-top: 50px;
 }
 .projects img{
@@ -133,6 +146,9 @@ h1{
     margin-top: 30px;
     text-decoration:underline;
 }
+.skill h1{
+    color: #F6B400;
+}
 .HTML{
     width: 80%;
     background-color: #F6B400;
@@ -148,4 +164,7 @@ h1{
 .main{
     margin-left: 100px;
     margin-bottom: 100px;
+}
+.main p{
+    color: #F6B400;
 }
