@@ -79,9 +79,9 @@ h1{
     background: linear-gradient(100deg,#000000 50%,#F6B400 50% );
 }
 .about{
-    display: flex;
-    margin-top: 70px;
+    /* display: flex; */
 }
+
 .title{
     /* margin-top: 50px; */
     font-size: 30px;
@@ -116,7 +116,9 @@ h1{
     background-color: #F6B400;
 }
 .card2{
+    border: 1px solid white;
     width: 70%;
+    margin-top: 500px;
    
     margin-left: 100px;
     margin-top: 50px;
@@ -127,6 +129,9 @@ h1{
 .card{
     margin-left: 100px;
     background-color: #000000;
+}
+.card h4{
+    font-weight: bolder;
 }
 .projects{
     display: flex;
@@ -191,4 +196,23 @@ h1{
     width: 30%;
     background-color: transparent;
     border-radius: 20px;
+}
+.contact{
+    margin-left: 100px;
+    color: #F6B400;
+    
+}
+.rose{
+    /* margin-top: 20px; */
+}
+#book{
+    margin-top: 20px;
+    background-color: #F6B400;
+}
+.map{
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+    width: 40%;
+    
 }
